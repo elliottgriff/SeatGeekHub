@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F12C5B827C3DF8300A981C2 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F12C5B627C3DF8300A981C2 /* EventTableViewCell.swift */; };
+		4F12C5B927C3DF8300A981C2 /* EventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F12C5B727C3DF8300A981C2 /* EventTableViewCell.xib */; };
+		4F1A01FD27BFDCF500CCDB8D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A01FC27BFDCF500CCDB8D /* DetailViewController.swift */; };
+		4F1A01FF27BFDFA100CCDB8D /* SGData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1A01FE27BFDFA100CCDB8D /* SGData.swift */; };
+		4F9248CE27C032AC00391F45 /* SeatGeekManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9248CD27C032AC00391F45 /* SeatGeekManager.swift */; };
+		4F9413AD27BEC02F00C22905 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9413AC27BEC02F00C22905 /* Constants.swift */; };
 		4FDC666327BC001800C3B3DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC666227BC001800C3B3DB /* AppDelegate.swift */; };
 		4FDC666527BC001800C3B3DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC666427BC001800C3B3DB /* SceneDelegate.swift */; };
-		4FDC666727BC001800C3B3DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC666627BC001800C3B3DB /* ViewController.swift */; };
+		4FDC666727BC001800C3B3DB /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC666627BC001800C3B3DB /* EventsViewController.swift */; };
 		4FDC666A27BC001800C3B3DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC666827BC001800C3B3DB /* Main.storyboard */; };
 		4FDC666D27BC001800C3B3DB /* SeatGeekHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FDC666B27BC001800C3B3DB /* SeatGeekHub.xcdatamodeld */; };
 		4FDC666F27BC001A00C3B3DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDC666E27BC001A00C3B3DB /* Assets.xcassets */; };
@@ -17,10 +23,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F12C5B627C3DF8300A981C2 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		4F12C5B727C3DF8300A981C2 /* EventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableViewCell.xib; sourceTree = "<group>"; };
+		4F1A01FC27BFDCF500CCDB8D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		4F1A01FE27BFDFA100CCDB8D /* SGData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGData.swift; sourceTree = "<group>"; };
+		4F9248CD27C032AC00391F45 /* SeatGeekManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatGeekManager.swift; sourceTree = "<group>"; };
+		4F9413AC27BEC02F00C22905 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4FDC665F27BC001800C3B3DB /* SeatGeekHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeatGeekHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDC666227BC001800C3B3DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FDC666427BC001800C3B3DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FDC666627BC001800C3B3DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FDC666627BC001800C3B3DB /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		4FDC666927BC001800C3B3DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FDC666C27BC001800C3B3DB /* SeatGeekHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeatGeekHub.xcdatamodel; sourceTree = "<group>"; };
 		4FDC666E27BC001A00C3B3DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +56,7 @@
 			children = (
 				4FDC666127BC001800C3B3DB /* SeatGeekHub */,
 				4FDC666027BC001800C3B3DB /* Products */,
+				A06DA74322B6F3A64D058A97 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +73,51 @@
 			children = (
 				4FDC666227BC001800C3B3DB /* AppDelegate.swift */,
 				4FDC666427BC001800C3B3DB /* SceneDelegate.swift */,
-				4FDC666627BC001800C3B3DB /* ViewController.swift */,
-				4FDC666827BC001800C3B3DB /* Main.storyboard */,
+				4FDC667927BC003400C3B3DB /* model */,
+				4FDC667A27BC003A00C3B3DB /* views */,
+				4FDC667B27BC003F00C3B3DB /* controllers */,
+				4F9413AC27BEC02F00C22905 /* Constants.swift */,
 				4FDC666E27BC001A00C3B3DB /* Assets.xcassets */,
-				4FDC667027BC001A00C3B3DB /* LaunchScreen.storyboard */,
 				4FDC667327BC001A00C3B3DB /* Info.plist */,
 				4FDC666B27BC001800C3B3DB /* SeatGeekHub.xcdatamodeld */,
 			);
 			path = SeatGeekHub;
+			sourceTree = "<group>";
+		};
+		4FDC667927BC003400C3B3DB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4F9248CD27C032AC00391F45 /* SeatGeekManager.swift */,
+				4F1A01FE27BFDFA100CCDB8D /* SGData.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4FDC667A27BC003A00C3B3DB /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC667027BC001A00C3B3DB /* LaunchScreen.storyboard */,
+				4FDC666827BC001800C3B3DB /* Main.storyboard */,
+				4F12C5B727C3DF8300A981C2 /* EventTableViewCell.xib */,
+				4F12C5B627C3DF8300A981C2 /* EventTableViewCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		4FDC667B27BC003F00C3B3DB /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FDC666627BC001800C3B3DB /* EventsViewController.swift */,
+				4F1A01FC27BFDCF500CCDB8D /* DetailViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A06DA74322B6F3A64D058A97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FDC667227BC001A00C3B3DB /* LaunchScreen.storyboard in Resources */,
+				4F12C5B927C3DF8300A981C2 /* EventTableViewCell.xib in Resources */,
 				4FDC666F27BC001A00C3B3DB /* Assets.xcassets in Resources */,
 				4FDC666A27BC001800C3B3DB /* Main.storyboard in Resources */,
 			);
@@ -141,10 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1A01FF27BFDFA100CCDB8D /* SGData.swift in Sources */,
 				4FDC666D27BC001800C3B3DB /* SeatGeekHub.xcdatamodeld in Sources */,
-				4FDC666727BC001800C3B3DB /* ViewController.swift in Sources */,
+				4FDC666727BC001800C3B3DB /* EventsViewController.swift in Sources */,
 				4FDC666327BC001800C3B3DB /* AppDelegate.swift in Sources */,
+				4F12C5B827C3DF8300A981C2 /* EventTableViewCell.swift in Sources */,
 				4FDC666527BC001800C3B3DB /* SceneDelegate.swift in Sources */,
+				4F9248CE27C032AC00391F45 /* SeatGeekManager.swift in Sources */,
+				4F9413AD27BEC02F00C22905 /* Constants.swift in Sources */,
+				4F1A01FD27BFDCF500CCDB8D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -276,6 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
